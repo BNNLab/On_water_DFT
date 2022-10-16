@@ -1,0 +1,787 @@
+ *******************************************************************************
+ ** Site#: 37381        For non-commercial use only           Version 21.125L **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.125L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 191**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM6-D3H4 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Tue Oct 26 20:43:42 2021  *
+ *  PM6-D3H4   - CORRECT DISPERSION AND HYDROGEN BOND TERMS USING THE D3H4 METHOD
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *  EPS=2.38   - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  RSOLV=  3.480
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 128.0 HOURS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  RECALC=    - DO   5 CYCLES BETWEEN HESSIAN RECALC
+ *******************************************************************************
+  PM6-D3H4 OPT T=128H RECALC=5 PRECISE EPS=2.38 RSOLV=3.48
+ Cycloaddition_SM1_4H2O_PM6_D3H4_OPT
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       N          0.30125000  *   0.34182000  *  -0.54048000  *
+     2       N         -0.31148000  *  -0.47464000  *   0.16257000  *
+     3       C          1.74202000  *   0.18023000  *  -0.45835000  *
+     4       C         -1.75968000  *  -0.29132000  *   0.09213000  *
+     5       O         -2.36238000  *  -0.21135000  *  -0.95580000  *
+     6       O          2.39957000  *   1.00384000  *   0.14213000  *
+     7       O         -2.23396000  *  -0.33278000  *   1.31714000  *
+     8       O          2.13880000  *  -0.85481000  *  -1.15859000  *
+     9       C          3.56533000  *  -1.16453000  *  -1.12247000  *
+    10       H          3.67968000  *  -2.01551000  *  -1.79000000  *
+    11       H          4.14361000  *  -0.30833000  *  -1.47131000  *
+    12       H          3.83164000  *  -1.42771000  *  -0.09837000  *
+    13       C         -3.65629000  *  -0.05305000  *   1.46623000  *
+    14       H         -3.86465000  *   0.93575000  *   1.05496000  *
+    15       H         -4.24137000  *  -0.81592000  *   0.95079000  *
+    16       H         -3.83502000  *  -0.07970000  *   2.53888000  *
+    17       O          5.28126000  *   1.32144000  *   0.23073000  *
+    18       H          4.31182000  *   1.28121000  *   0.29550000  *
+    19       H          5.53820000  *   2.15250000  *   0.64860000  *
+    20       O          1.81040000  *  -2.04480000  *   1.58459000  *
+    21       H          1.85167000  *  -1.91884000  *   2.54097000  *
+    22       H          0.91580000  *  -1.76996000  *   1.32331000  *
+    23       O         -1.74950000  *   2.52850000  *   0.27899000  *
+    24       H         -1.29167000  *   2.43467000  *  -0.56824000  *
+    25       H         -1.12265000  *   2.99015000  *   0.85114000  *
+    26       O         -5.22125000  *  -0.38454000  *  -1.41095000  *
+    27       H         -4.25468000  *  -0.28395000  *  -1.37628000  *
+    28       H         -5.44271000  *  -0.47663000  *  -2.34570000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         N          0.3013      0.3418     -0.5405
+     2         N         -0.3115     -0.4746      0.1626
+     3         C          1.7420      0.1802     -0.4584
+     4         C         -1.7597     -0.2913      0.0921
+     5         O         -2.3624     -0.2114     -0.9558
+     6         O          2.3996      1.0038      0.1421
+     7         O         -2.2340     -0.3328      1.3171
+     8         O          2.1388     -0.8548     -1.1586
+     9         C          3.5653     -1.1645     -1.1225
+    10         H          3.6797     -2.0155     -1.7900
+    11         H          4.1436     -0.3083     -1.4713
+    12         H          3.8316     -1.4277     -0.0984
+    13         C         -3.6563     -0.0531      1.4662
+    14         H         -3.8647      0.9358      1.0550
+    15         H         -4.2414     -0.8159      0.9508
+    16         H         -3.8350     -0.0797      2.5389
+    17         O          5.2813      1.3214      0.2307
+    18         H          4.3118      1.2812      0.2955
+    19         H          5.5382      2.1525      0.6486
+    20         O          1.8104     -2.0448      1.5846
+    21         H          1.8517     -1.9188      2.5410
+    22         H          0.9158     -1.7700      1.3233
+    23         O         -1.7495      2.5285      0.2790
+    24         H         -1.2917      2.4347     -0.5682
+    25         H         -1.1226      2.9901      0.8511
+    26         O         -5.2213     -0.3845     -1.4110
+    27         H         -4.2547     -0.2840     -1.3763
+    28         H         -5.4427     -0.4766     -2.3457
+
+ General Reference for PM6:
+ "Optimization of Parameters for Semiempirical Methods V: Modification of NDDO Approximations
+ and Application to 70 Elements", J. J. P. Stewart, J. Mol. Mod., 13, 1173-1213 (2007)
+ URL: https://link.springer.com/article/10.1007/s00894-007-0233-4
+
+           Empirical Formula: C4 H14 N2 O8  =    28 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 44
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.047 TIME LEFT:  5.33D  GRAD.:   101.874 HEAT: -326.0631
+ CYCLE:     2 TIME:   0.047 TIME LEFT:  5.33D  GRAD.:   129.747 HEAT: -328.2230
+ CYCLE:     3 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:   122.463 HEAT: -329.0938
+ CYCLE:     4 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:   133.356 HEAT: -329.6022
+ CYCLE:     5 TIME:   0.039 TIME LEFT:  5.33D  GRAD.:    71.626 HEAT: -332.1147
+
+          HESSIAN CALCULATED NUMERICALLY
+
+ CYCLE:     6 TIME:   1.469 TIME LEFT:  5.33D  GRAD.:    20.675 HEAT: -333.1181
+ CYCLE:     7 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:    11.243 HEAT: -333.7959
+ CYCLE:     8 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:    11.759 HEAT: -333.8526
+ CYCLE:     9 TIME:   0.062 TIME LEFT:  5.33D  GRAD.:    24.841 HEAT: -333.8990
+ CYCLE:    10 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:    11.766 HEAT: -334.3221
+
+          HESSIAN CALCULATED NUMERICALLY
+
+ CYCLE:    11 TIME:   1.453 TIME LEFT:  5.33D  GRAD.:     8.429 HEAT: -334.5653
+ CYCLE:    12 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:     8.121 HEAT: -334.8964
+ CYCLE:    13 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:    10.215 HEAT: -335.7469
+ CYCLE:    14 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:    15.897 HEAT: -336.3397
+ CYCLE:    15 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:    13.511 HEAT: -337.0024
+
+          HESSIAN CALCULATED NUMERICALLY
+
+ CYCLE:    16 TIME:   1.516 TIME LEFT:  5.33D  GRAD.:    15.360 HEAT: -337.0094
+ CYCLE:    17 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:     8.021 HEAT: -337.2154
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  5.33D  GRAD.:     6.367 HEAT: -337.4296
+ CYCLE:    19 TIME:   0.047 TIME LEFT:  5.33D  GRAD.:     5.310 HEAT: -337.7334
+ CYCLE:    20 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:     4.865 HEAT: -338.1804
+
+          HESSIAN CALCULATED NUMERICALLY
+
+    Hessian  1% complete.  Estimated remaining time required:   0.10 hours
+    1 of  84 steps completed
+    2 of  84 steps completed
+    3 of  84 steps completed
+    4 of  84 steps completed
+    Hessian  5% complete.  Estimated remaining time required:   0.02 hours
+    5 of  84 steps completed
+    6 of  84 steps completed
+    7 of  84 steps completed
+    8 of  84 steps completed
+    Hessian 10% complete.  Estimated remaining time required:   0.01 hours
+    9 of  84 steps completed
+   10 of  84 steps completed
+   11 of  84 steps completed
+   12 of  84 steps completed
+    Hessian 15% complete.  Estimated remaining time required:   0.01 hours
+   13 of  84 steps completed
+   14 of  84 steps completed
+   15 of  84 steps completed
+   16 of  84 steps completed
+    Hessian 20% complete.  Estimated remaining time required:   0.01 hours
+   17 of  84 steps completed
+   18 of  84 steps completed
+   19 of  84 steps completed
+   20 of  84 steps completed
+    Hessian 25% complete.  Estimated remaining time required:   0.00 hours
+   21 of  84 steps completed
+   22 of  84 steps completed
+   23 of  84 steps completed
+   24 of  84 steps completed
+   25 of  84 steps completed
+    Hessian 30% complete.  Estimated remaining time required:   0.00 hours
+   26 of  84 steps completed
+   27 of  84 steps completed
+   28 of  84 steps completed
+   29 of  84 steps completed
+    Hessian 35% complete.  Estimated remaining time required:   0.00 hours
+   30 of  84 steps completed
+   31 of  84 steps completed
+   32 of  84 steps completed
+   33 of  84 steps completed
+    Hessian 40% complete.  Estimated remaining time required:   0.00 hours
+   34 of  84 steps completed
+   35 of  84 steps completed
+   36 of  84 steps completed
+   37 of  84 steps completed
+    Hessian 45% complete.  Estimated remaining time required:   0.00 hours
+   38 of  84 steps completed
+   39 of  84 steps completed
+   40 of  84 steps completed
+   41 of  84 steps completed
+    Hessian 50% complete.  Estimated remaining time required:   0.00 hours
+   42 of  84 steps completed
+   43 of  84 steps completed
+   44 of  84 steps completed
+   45 of  84 steps completed
+   46 of  84 steps completed
+    Hessian 55% complete.  Estimated remaining time required:   0.00 hours
+   47 of  84 steps completed
+   48 of  84 steps completed
+   49 of  84 steps completed
+   50 of  84 steps completed
+    Hessian 60% complete.  Estimated remaining time required:   0.00 hours
+   51 of  84 steps completed
+   52 of  84 steps completed
+   53 of  84 steps completed
+   54 of  84 steps completed
+    Hessian 65% complete.  Estimated remaining time required:   0.00 hours
+   55 of  84 steps completed
+   56 of  84 steps completed
+   57 of  84 steps completed
+   58 of  84 steps completed
+    Hessian 70% complete.  Estimated remaining time required:   0.00 hours
+   59 of  84 steps completed
+   60 of  84 steps completed
+   61 of  84 steps completed
+   62 of  84 steps completed
+    Hessian 75% complete.  Estimated remaining time required:   0.00 hours
+   63 of  84 steps completed
+   64 of  84 steps completed
+   65 of  84 steps completed
+   66 of  84 steps completed
+   67 of  84 steps completed
+    Hessian 80% complete.  Estimated remaining time required:   0.00 hours
+   68 of  84 steps completed
+   69 of  84 steps completed
+   70 of  84 steps completed
+   71 of  84 steps completed
+    Hessian 85% complete.  Estimated remaining time required:   0.00 hours
+   72 of  84 steps completed
+   73 of  84 steps completed
+   74 of  84 steps completed
+   75 of  84 steps completed
+    Hessian 90% complete.  Estimated remaining time required:   0.00 hours
+   76 of  84 steps completed
+   77 of  84 steps completed
+   78 of  84 steps completed
+   79 of  84 steps completed
+    Hessian 95% complete.  Estimated remaining time required:   0.00 hours
+   80 of  84 steps completed
+   81 of  84 steps completed
+   82 of  84 steps completed
+   83 of  84 steps completed
+    Hessian100% complete.  Estimated remaining time required:   0.00 hours
+   84 of  84 steps completed
+ CYCLE:    21 TIME:   1.508 TIME LEFT:  5.33D  GRAD.:     3.446 HEAT: -338.2713
+ CYCLE:    22 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:     2.832 HEAT: -338.3646
+ CYCLE:    23 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:     3.441 HEAT: -338.5360
+ CYCLE:    24 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:     5.587 HEAT: -338.7552
+ CYCLE:    25 TIME:   0.023 TIME LEFT:  5.33D  GRAD.:    14.152 HEAT: -338.8452
+
+          HESSIAN CALCULATED NUMERICALLY
+
+    Hessian  1% complete.  Estimated remaining time required:   0.13 hours
+    1 of  84 steps completed
+    2 of  84 steps completed
+    3 of  84 steps completed
+    4 of  84 steps completed
+    Hessian  5% complete.  Estimated remaining time required:   0.03 hours
+    5 of  84 steps completed
+    6 of  84 steps completed
+    7 of  84 steps completed
+    8 of  84 steps completed
+    Hessian 10% complete.  Estimated remaining time required:   0.01 hours
+    9 of  84 steps completed
+   10 of  84 steps completed
+   11 of  84 steps completed
+   12 of  84 steps completed
+    Hessian 15% complete.  Estimated remaining time required:   0.01 hours
+   13 of  84 steps completed
+   14 of  84 steps completed
+   15 of  84 steps completed
+   16 of  84 steps completed
+    Hessian 20% complete.  Estimated remaining time required:   0.01 hours
+   17 of  84 steps completed
+   18 of  84 steps completed
+   19 of  84 steps completed
+   20 of  84 steps completed
+    Hessian 25% complete.  Estimated remaining time required:   0.01 hours
+   21 of  84 steps completed
+   22 of  84 steps completed
+   23 of  84 steps completed
+   24 of  84 steps completed
+   25 of  84 steps completed
+    Hessian 30% complete.  Estimated remaining time required:   0.00 hours
+   26 of  84 steps completed
+   27 of  84 steps completed
+   28 of  84 steps completed
+   29 of  84 steps completed
+    Hessian 35% complete.  Estimated remaining time required:   0.00 hours
+   30 of  84 steps completed
+   31 of  84 steps completed
+   32 of  84 steps completed
+   33 of  84 steps completed
+    Hessian 40% complete.  Estimated remaining time required:   0.00 hours
+   34 of  84 steps completed
+   35 of  84 steps completed
+   36 of  84 steps completed
+   37 of  84 steps completed
+    Hessian 45% complete.  Estimated remaining time required:   0.00 hours
+   38 of  84 steps completed
+   39 of  84 steps completed
+   40 of  84 steps completed
+   41 of  84 steps completed
+    Hessian 50% complete.  Estimated remaining time required:   0.00 hours
+   42 of  84 steps completed
+   43 of  84 steps completed
+   44 of  84 steps completed
+   45 of  84 steps completed
+   46 of  84 steps completed
+    Hessian 55% complete.  Estimated remaining time required:   0.00 hours
+   47 of  84 steps completed
+   48 of  84 steps completed
+   49 of  84 steps completed
+   50 of  84 steps completed
+    Hessian 60% complete.  Estimated remaining time required:   0.00 hours
+   51 of  84 steps completed
+   52 of  84 steps completed
+   53 of  84 steps completed
+   54 of  84 steps completed
+    Hessian 65% complete.  Estimated remaining time required:   0.00 hours
+   55 of  84 steps completed
+   56 of  84 steps completed
+   57 of  84 steps completed
+   58 of  84 steps completed
+    Hessian 70% complete.  Estimated remaining time required:   0.00 hours
+   59 of  84 steps completed
+   60 of  84 steps completed
+   61 of  84 steps completed
+   62 of  84 steps completed
+    Hessian 75% complete.  Estimated remaining time required:   0.00 hours
+   63 of  84 steps completed
+   64 of  84 steps completed
+   65 of  84 steps completed
+   66 of  84 steps completed
+   67 of  84 steps completed
+    Hessian 80% complete.  Estimated remaining time required:   0.00 hours
+   68 of  84 steps completed
+   69 of  84 steps completed
+   70 of  84 steps completed
+   71 of  84 steps completed
+    Hessian 85% complete.  Estimated remaining time required:   0.00 hours
+   72 of  84 steps completed
+   73 of  84 steps completed
+   74 of  84 steps completed
+   75 of  84 steps completed
+    Hessian 90% complete.  Estimated remaining time required:   0.00 hours
+   76 of  84 steps completed
+   77 of  84 steps completed
+   78 of  84 steps completed
+   79 of  84 steps completed
+    Hessian 95% complete.  Estimated remaining time required:   0.00 hours
+   80 of  84 steps completed
+   81 of  84 steps completed
+   82 of  84 steps completed
+   83 of  84 steps completed
+    Hessian100% complete.  Estimated remaining time required:   0.00 hours
+   84 of  84 steps completed
+ CYCLE:    26 TIME:   1.508 TIME LEFT:  5.33D  GRAD.:    10.884 HEAT: -339.0326
+ CYCLE:    27 TIME:   0.047 TIME LEFT:  5.33D  GRAD.:     7.949 HEAT: -339.0906
+ CYCLE:    28 TIME:   0.047 TIME LEFT:  5.33D  GRAD.:     4.571 HEAT: -339.2160
+ CYCLE:    29 TIME:   0.102 TIME LEFT:  5.33D  GRAD.:     2.988 HEAT: -339.2300
+ CYCLE:    30 TIME:   0.117 TIME LEFT:  5.33D  GRAD.:     2.769 HEAT: -339.2321
+
+          HESSIAN CALCULATED NUMERICALLY
+
+    Hessian  1% complete.  Estimated remaining time required:   0.17 hours
+    1 of  84 steps completed
+    2 of  84 steps completed
+    3 of  84 steps completed
+    4 of  84 steps completed
+    Hessian  5% complete.  Estimated remaining time required:   0.03 hours
+    5 of  84 steps completed
+    6 of  84 steps completed
+    7 of  84 steps completed
+    8 of  84 steps completed
+    Hessian 10% complete.  Estimated remaining time required:   0.02 hours
+    9 of  84 steps completed
+   10 of  84 steps completed
+   11 of  84 steps completed
+   12 of  84 steps completed
+    Hessian 15% complete.  Estimated remaining time required:   0.01 hours
+   13 of  84 steps completed
+   14 of  84 steps completed
+   15 of  84 steps completed
+   16 of  84 steps completed
+    Hessian 20% complete.  Estimated remaining time required:   0.01 hours
+   17 of  84 steps completed
+   18 of  84 steps completed
+   19 of  84 steps completed
+   20 of  84 steps completed
+    Hessian 25% complete.  Estimated remaining time required:   0.01 hours
+   21 of  84 steps completed
+   22 of  84 steps completed
+   23 of  84 steps completed
+   24 of  84 steps completed
+   25 of  84 steps completed
+    Hessian 30% complete.  Estimated remaining time required:   0.00 hours
+   26 of  84 steps completed
+   27 of  84 steps completed
+   28 of  84 steps completed
+   29 of  84 steps completed
+    Hessian 35% complete.  Estimated remaining time required:   0.00 hours
+   30 of  84 steps completed
+   31 of  84 steps completed
+   32 of  84 steps completed
+   33 of  84 steps completed
+    Hessian 40% complete.  Estimated remaining time required:   0.00 hours
+   34 of  84 steps completed
+   35 of  84 steps completed
+   36 of  84 steps completed
+   37 of  84 steps completed
+    Hessian 45% complete.  Estimated remaining time required:   0.00 hours
+   38 of  84 steps completed
+   39 of  84 steps completed
+   40 of  84 steps completed
+   41 of  84 steps completed
+    Hessian 50% complete.  Estimated remaining time required:   0.00 hours
+   42 of  84 steps completed
+   43 of  84 steps completed
+   44 of  84 steps completed
+   45 of  84 steps completed
+   46 of  84 steps completed
+    Hessian 55% complete.  Estimated remaining time required:   0.00 hours
+   47 of  84 steps completed
+   48 of  84 steps completed
+   49 of  84 steps completed
+   50 of  84 steps completed
+    Hessian 60% complete.  Estimated remaining time required:   0.00 hours
+   51 of  84 steps completed
+   52 of  84 steps completed
+   53 of  84 steps completed
+   54 of  84 steps completed
+    Hessian 65% complete.  Estimated remaining time required:   0.00 hours
+   55 of  84 steps completed
+   56 of  84 steps completed
+   57 of  84 steps completed
+   58 of  84 steps completed
+    Hessian 70% complete.  Estimated remaining time required:   0.00 hours
+   59 of  84 steps completed
+   60 of  84 steps completed
+   61 of  84 steps completed
+   62 of  84 steps completed
+    Hessian 75% complete.  Estimated remaining time required:   0.00 hours
+   63 of  84 steps completed
+   64 of  84 steps completed
+   65 of  84 steps completed
+   66 of  84 steps completed
+   67 of  84 steps completed
+    Hessian 80% complete.  Estimated remaining time required:   0.00 hours
+   68 of  84 steps completed
+   69 of  84 steps completed
+   70 of  84 steps completed
+   71 of  84 steps completed
+    Hessian 85% complete.  Estimated remaining time required:   0.00 hours
+   72 of  84 steps completed
+   73 of  84 steps completed
+   74 of  84 steps completed
+   75 of  84 steps completed
+    Hessian 90% complete.  Estimated remaining time required:   0.00 hours
+   76 of  84 steps completed
+   77 of  84 steps completed
+   78 of  84 steps completed
+   79 of  84 steps completed
+    Hessian 95% complete.  Estimated remaining time required:   0.00 hours
+   80 of  84 steps completed
+   81 of  84 steps completed
+   82 of  84 steps completed
+   83 of  84 steps completed
+    Hessian100% complete.  Estimated remaining time required:   0.00 hours
+   84 of  84 steps completed
+ CYCLE:    31 TIME:   1.531 TIME LEFT:  5.33D  GRAD.:     2.770 HEAT: -339.2324
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+ -------------------------------------------------------------------------------
+ PM6-D3H4 OPT T=128H RECALC=5 PRECISE EPS=2.38 RSOLV=3.48
+ Cycloaddition_SM1_4H2O_PM6_D3H4_OPT
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM6-D3H4 CALCULATION
+                                                       MOPAC2016 (Version: 21.125L)
+                                                       Tue Oct 26 20:43:52 2021
+                                                       No. of days remaining = 191
+
+
+
+
+          FINAL HEAT OF FORMATION =       -339.23236 KCAL/MOL =   -1419.34820 KJ/MOL
+          VAN DER WAALS AREA      =        478.32 SQUARE ANGSTROMS
+
+
+          TOTAL ENERGY            =      -3371.89299 EV
+          ELECTRONIC ENERGY       =     -10636.68298 EV  POINT GROUP:     C1  
+          CORE-CORE REPULSION     =       7264.78999 EV
+
+          DIELECTRIC ENERGY       =         -0.47209 EV
+          COSMO AREA              =        478.32 SQUARE ANGSTROMS
+          COSMO VOLUME            =        518.77 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          2.77031 = 0.52354 PER ATOM
+          IONIZATION POTENTIAL    =         10.899311 EV
+          HOMO LUMO ENERGIES (EV) =        -10.899 -2.205
+          NO. OF FILLED LEVELS    =         44
+          MOLECULAR WEIGHT        =        218.1632
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    28    H    19    12.08588
+            H    10    H    25     7.10052
+            H    11    H    21     4.60423
+
+
+          SCF CALCULATIONS        =        561
+ 
+          WALL-CLOCK TIME         =         10.023 SECONDS
+          COMPUTATION TIME        =          9.626 SECONDS
+
+
+
+       FINAL  POINT  AND  DERIVATIVES
+
+   PARAMETER     ATOM    TYPE            VALUE        GRADIENT
+      1          1  N    CARTESIAN X     0.330574      0.041548  KCAL/ANGSTROM
+      2          1  N    CARTESIAN Y     0.348371     -0.462454  KCAL/ANGSTROM
+      3          1  N    CARTESIAN Z    -0.383909     -1.009062  KCAL/ANGSTROM
+      4          2  N    CARTESIAN X    -0.371829      0.029186  KCAL/ANGSTROM
+      5          2  N    CARTESIAN Y    -0.583898      0.351473  KCAL/ANGSTROM
+      6          2  N    CARTESIAN Z     0.011700      0.870020  KCAL/ANGSTROM
+      7          3  C    CARTESIAN X     1.803417      0.003758  KCAL/ANGSTROM
+      8          3  C    CARTESIAN Y     0.220035      0.015986  KCAL/ANGSTROM
+      9          3  C    CARTESIAN Z    -0.311712      0.472528  KCAL/ANGSTROM
+     10          4  C    CARTESIAN X    -1.842776     -0.081235  KCAL/ANGSTROM
+     11          4  C    CARTESIAN Y    -0.447213     -0.060389  KCAL/ANGSTROM
+     12          4  C    CARTESIAN Z    -0.034511     -0.380127  KCAL/ANGSTROM
+     13          5  O    CARTESIAN X    -2.514480     -0.691427  KCAL/ANGSTROM
+     14          5  O    CARTESIAN Y    -0.640390      0.578683  KCAL/ANGSTROM
+     15          5  O    CARTESIAN Z    -1.015308     -0.189820  KCAL/ANGSTROM
+     16          6  O    CARTESIAN X     2.462484      0.159154  KCAL/ANGSTROM
+     17          6  O    CARTESIAN Y     0.976250      0.409657  KCAL/ANGSTROM
+     18          6  O    CARTESIAN Z     0.354970     -0.198695  KCAL/ANGSTROM
+     19          7  O    CARTESIAN X    -2.238017      0.242662  KCAL/ANGSTROM
+     20          7  O    CARTESIAN Y    -0.211321      0.228401  KCAL/ANGSTROM
+     21          7  O    CARTESIAN Z     1.234242     -0.028398  KCAL/ANGSTROM
+     22          8  O    CARTESIAN X     2.198632      0.038210  KCAL/ANGSTROM
+     23          8  O    CARTESIAN Y    -0.752043      0.242757  KCAL/ANGSTROM
+     24          8  O    CARTESIAN Z    -1.155161     -0.104335  KCAL/ANGSTROM
+     25          9  C    CARTESIAN X     3.631078     -0.033907  KCAL/ANGSTROM
+     26          9  C    CARTESIAN Y    -1.074510     -0.042753  KCAL/ANGSTROM
+     27          9  C    CARTESIAN Z    -1.201296      0.145236  KCAL/ANGSTROM
+     28         10  H    CARTESIAN X     3.617777     -0.012036  KCAL/ANGSTROM
+     29         10  H    CARTESIAN Y    -1.918200     -0.318981  KCAL/ANGSTROM
+     30         10  H    CARTESIAN Z    -1.930171      0.079365  KCAL/ANGSTROM
+     31         11  H    CARTESIAN X     4.187412     -0.244758  KCAL/ANGSTROM
+     32         11  H    CARTESIAN Y    -0.190595     -0.253870  KCAL/ANGSTROM
+     33         11  H    CARTESIAN Z    -1.576155     -0.155139  KCAL/ANGSTROM
+     34         12  H    CARTESIAN X     3.943997     -0.309654  KCAL/ANGSTROM
+     35         12  H    CARTESIAN Y    -1.397279     -0.196577  KCAL/ANGSTROM
+     36         12  H    CARTESIAN Z    -0.184929      0.031539  KCAL/ANGSTROM
+     37         13  C    CARTESIAN X    -3.679483      0.144092  KCAL/ANGSTROM
+     38         13  C    CARTESIAN Y    -0.039517     -0.170124  KCAL/ANGSTROM
+     39         13  C    CARTESIAN Z     1.461220      0.037813  KCAL/ANGSTROM
+     40         14  H    CARTESIAN X    -3.948818      1.021186  KCAL/ANGSTROM
+     41         14  H    CARTESIAN Y     0.961193     -0.169542  KCAL/ANGSTROM
+     42         14  H    CARTESIAN Z     1.060149      0.186689  KCAL/ANGSTROM
+     43         15  H    CARTESIAN X    -4.241704     -0.336419  KCAL/ANGSTROM
+     44         15  H    CARTESIAN Y    -0.870546     -0.181901  KCAL/ANGSTROM
+     45         15  H    CARTESIAN Z     0.985271      0.013507  KCAL/ANGSTROM
+     46         16  H    CARTESIAN X    -3.712500     -0.036591  KCAL/ANGSTROM
+     47         16  H    CARTESIAN Y    -0.084190     -0.234838  KCAL/ANGSTROM
+     48         16  H    CARTESIAN Z     2.573637     -0.018178  KCAL/ANGSTROM
+     49         17  O    CARTESIAN X     5.358164      0.067157  KCAL/ANGSTROM
+     50         17  O    CARTESIAN Y     1.360043      0.416880  KCAL/ANGSTROM
+     51         17  O    CARTESIAN Z     0.155944      0.174916  KCAL/ANGSTROM
+     52         18  H    CARTESIAN X     4.415491     -0.047871  KCAL/ANGSTROM
+     53         18  H    CARTESIAN Y     1.240063     -0.326854  KCAL/ANGSTROM
+     54         18  H    CARTESIAN Z     0.390041     -0.078009  KCAL/ANGSTROM
+     55         19  H    CARTESIAN X     5.717313     -0.152949  KCAL/ANGSTROM
+     56         19  H    CARTESIAN Y     2.143524      0.025410  KCAL/ANGSTROM
+     57         19  H    CARTESIAN Z     0.602762      0.133887  KCAL/ANGSTROM
+     58         20  O    CARTESIAN X     1.855179     -0.020173  KCAL/ANGSTROM
+     59         20  O    CARTESIAN Y    -2.200953      0.310719  KCAL/ANGSTROM
+     60         20  O    CARTESIAN Z     1.731656      0.137348  KCAL/ANGSTROM
+     61         21  H    CARTESIAN X     1.774967      0.274196  KCAL/ANGSTROM
+     62         21  H    CARTESIAN Y    -1.816659      0.275554  KCAL/ANGSTROM
+     63         21  H    CARTESIAN Z     2.616959     -0.340492  KCAL/ANGSTROM
+     64         22  H    CARTESIAN X     1.104359     -0.134206  KCAL/ANGSTROM
+     65         22  H    CARTESIAN Y    -1.964580     -0.110753  KCAL/ANGSTROM
+     66         22  H    CARTESIAN Z     1.176788      0.156168  KCAL/ANGSTROM
+     67         23  O    CARTESIAN X    -1.676609     -0.095434  KCAL/ANGSTROM
+     68         23  O    CARTESIAN Y     2.833687     -0.134669  KCAL/ANGSTROM
+     69         23  O    CARTESIAN Z     0.130011      0.293952  KCAL/ANGSTROM
+     70         24  H    CARTESIAN X    -1.097871      0.013372  KCAL/ANGSTROM
+     71         24  H    CARTESIAN Y     2.185094      0.054201  KCAL/ANGSTROM
+     72         24  H    CARTESIAN Z    -0.283658     -0.094786  KCAL/ANGSTROM
+     73         25  H    CARTESIAN X    -1.236342     -0.143647  KCAL/ANGSTROM
+     74         25  H    CARTESIAN Y     3.263415     -0.221122  KCAL/ANGSTROM
+     75         25  H    CARTESIAN Z     0.879952      0.036432  KCAL/ANGSTROM
+     76         26  O    CARTESIAN X    -5.408412     -0.222324  KCAL/ANGSTROM
+     77         26  O    CARTESIAN Y    -0.259419      0.527747  KCAL/ANGSTROM
+     78         26  O    CARTESIAN Z    -1.385239      0.253170  KCAL/ANGSTROM
+     79         27  H    CARTESIAN X    -4.430459      0.168703  KCAL/ANGSTROM
+     80         27  H    CARTESIAN Y    -0.286792     -0.280372  KCAL/ANGSTROM
+     81         27  H    CARTESIAN Z    -1.366591      0.203610  KCAL/ANGSTROM
+     82         28  H    CARTESIAN X    -5.726710      0.359503  KCAL/ANGSTROM
+     83         28  H    CARTESIAN Y    -0.460721     -0.271897  KCAL/ANGSTROM
+     84         28  H    CARTESIAN Z    -2.281819     -0.628898  KCAL/ANGSTROM
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       N          0.33057423  *   0.34837062  *  -0.38390862  *
+     2       N         -0.37182877  *  -0.58389764  *   0.01169999  *
+     3       C          1.80341694  *   0.22003457  *  -0.31171151  *
+     4       C         -1.84277626  *  -0.44721255  *  -0.03451086  *
+     5       O         -2.51448034  *  -0.64038951  *  -1.01530846  *
+     6       O          2.46248420  *   0.97625029  *   0.35497001  *
+     7       O         -2.23801697  *  -0.21132070  *   1.23424199  *
+     8       O          2.19863194  *  -0.75204347  *  -1.15516107  *
+     9       C          3.63107759  *  -1.07451003  *  -1.20129590  *
+    10       H          3.61777743  *  -1.91819992  *  -1.93017086  *
+    11       H          4.18741198  *  -0.19059508  *  -1.57615485  *
+    12       H          3.94399651  *  -1.39727941  *  -0.18492892  *
+    13       C         -3.67948276  *  -0.03951725  *   1.46122006  *
+    14       H         -3.94881849  *   0.96119348  *   1.06014861  *
+    15       H         -4.24170382  *  -0.87054557  *   0.98527067  *
+    16       H         -3.71249960  *  -0.08419050  *   2.57363670  *
+    17       O          5.35816430  *   1.36004299  *   0.15594388  *
+    18       H          4.41549059  *   1.24006312  *   0.39004072  *
+    19       H          5.71731317  *   2.14352440  *   0.60276175  *
+    20       O          1.85517945  *  -2.20095314  *   1.73165572  *
+    21       H          1.77496656  *  -1.81665852  *   2.61695862  *
+    22       H          1.10435939  *  -1.96458013  *   1.17678845  *
+    23       O         -1.67660889  *   2.83368731  *   0.13001079  *
+    24       H         -1.09787121  *   2.18509364  *  -0.28365751  *
+    25       H         -1.23634220  *   3.26341523  *   0.87995243  *
+    26       O         -5.40841165  *  -0.25941869  *  -1.38523898  *
+    27       H         -4.43045909  *  -0.28679224  *  -1.36659080  *
+    28       H         -5.72670956  *  -0.46072090  *  -2.28181888  *
+
+                             CARTESIAN COORDINATES
+
+   1    N        0.330574225     0.348370624    -0.383908619
+   2    N       -0.371828765    -0.583897640     0.011699994
+   3    C        1.803416943     0.220034571    -0.311711508
+   4    C       -1.842776259    -0.447212547    -0.034510861
+   5    O       -2.514480339    -0.640389512    -1.015308464
+   6    O        2.462484197     0.976250294     0.354970013
+   7    O       -2.238016968    -0.211320704     1.234241988
+   8    O        2.198631943    -0.752043469    -1.155161067
+   9    C        3.631077593    -1.074510033    -1.201295900
+  10    H        3.617777427    -1.918199916    -1.930170858
+  11    H        4.187411979    -0.190595078    -1.576154855
+  12    H        3.943996511    -1.397279407    -0.184928917
+  13    C       -3.679482759    -0.039517251     1.461220063
+  14    H       -3.948818490     0.961193475     1.060148606
+  15    H       -4.241703816    -0.870545575     0.985270668
+  16    H       -3.712499595    -0.084190499     2.573636697
+  17    O        5.358164299     1.360042989     0.155943880
+  18    H        4.415490586     1.240063117     0.390040724
+  19    H        5.717313168     2.143524398     0.602761750
+  20    O        1.855179449    -2.200953139     1.731655722
+  21    H        1.774966565    -1.816658525     2.616958616
+  22    H        1.104359394    -1.964580133     1.176788454
+  23    O       -1.676608892     2.833687307     0.130010794
+  24    H       -1.097871211     2.185093639    -0.283657510
+  25    H       -1.236342205     3.263415228     0.879952432
+  26    O       -5.408411647    -0.259418687    -1.385238983
+  27    H       -4.430459091    -0.286792243    -1.366590797
+  28    H       -5.726709556    -0.460720896    -2.281818885
+
+
+           Empirical Formula: C4 H14 N2 O8  =    28 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+                  EIGENVALUES  
+ -36.60670 -33.64477 -33.38597 -32.23011 -32.10701 -30.04068 -29.97976 -29.63607
+ -29.56038 -28.69906 -26.54792 -25.08800 -22.96502 -21.15322 -19.76578 -19.44545
+ -19.21247 -19.11083 -18.87917 -18.43194 -18.13999 -17.81562 -17.54976 -16.99596
+ -15.87584 -15.63365 -15.57469 -15.08664 -15.06625 -14.30156 -14.24798 -14.22988
+ -14.19331 -13.89440 -13.84144 -12.98761 -12.85070 -12.37443 -12.35745 -12.22452
+ -12.14742 -11.96166 -11.87503 -10.89931  -2.20501  -1.24621  -0.58411  -0.39042
+   0.28366   1.10326   1.99452   2.11730   2.22636   3.08494   3.28744   3.43096
+   3.76867   3.83755   4.12215   4.17921   4.70603   4.75071   4.77121   4.82271
+   5.04769   5.11959   5.92896   5.96977   6.16755   6.22005
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          N          -0.147961        5.1480     1.71689     3.43107
+    2          N          -0.143025        5.1430     1.71166     3.43136
+    3          C           0.669335        3.3307     1.07664     2.25403
+    4          C           0.667176        3.3328     1.07552     2.25730
+    5          O          -0.484465        6.4845     1.84883     4.63564
+    6          O          -0.481248        6.4812     1.84887     4.63238
+    7          O          -0.376877        6.3769     1.84606     4.53082
+    8          O          -0.378727        6.3787     1.84481     4.53391
+    9          C          -0.179281        4.1793     1.13131     3.04797
+   10          H           0.184855        0.8151     0.81515
+   11          H           0.171722        0.8283     0.82828
+   12          H           0.172102        0.8279     0.82790
+   13          C          -0.178769        4.1788     1.13103     3.04774
+   14          H           0.173349        0.8267     0.82665
+   15          H           0.172076        0.8279     0.82792
+   16          H           0.181679        0.8183     0.81832
+   17          O          -0.685303        6.6853     1.77288     4.91242
+   18          H           0.338655        0.6613     0.66134
+   19          H           0.337899        0.6621     0.66210
+   20          O          -0.669888        6.6699     1.76234     4.90754
+   21          H           0.337488        0.6625     0.66251
+   22          H           0.329862        0.6701     0.67014
+   23          O          -0.667551        6.6676     1.76410     4.90345
+   24          H           0.327688        0.6723     0.67231
+   25          H           0.337228        0.6628     0.66277
+   26          O          -0.682534        6.6825     1.77453     4.90800
+   27          H           0.337166        0.6628     0.66283
+   28          H           0.337348        0.6627     0.66265
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.453    -0.315     1.944     2.021
+ HYBRID         0.088     0.307     0.053     0.324
+ SUM            0.541    -0.007     1.998     2.070
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  N   1.71689   1.12431   1.26781   1.03896
+    2  N   1.71166   1.12535   1.26215   1.04387
+    3  C   1.07664   0.79220   0.73904   0.72278
+    4  C   1.07552   0.79420   0.69161   0.77149
+    5  O   1.84883   1.64353   1.54354   1.44857
+    6  O   1.84887   1.64592   1.48657   1.49988
+    7  O   1.84606   1.38012   1.78651   1.36419
+    8  O   1.84481   1.38893   1.53979   1.60519
+    9  C   1.13131   0.74229   1.13442   1.17126
+   10  H   0.81515
+   11  H   0.82828
+   12  H   0.82790
+   13  C   1.13103   0.73675   1.16219   1.14880
+   14  H   0.82665
+   15  H   0.82792
+   16  H   0.81832
+   17  O   1.77288   1.45353   1.63302   1.82587
+   18  H   0.66134
+   19  H   0.66210
+   20  O   1.76234   1.63006   1.85671   1.42077
+   21  H   0.66251
+   22  H   0.67014
+   23  O   1.76410   1.62016   1.67674   1.60656
+   24  H   0.67231
+   25  H   0.66277
+   26  O   1.77453   1.42244   1.97381   1.51175
+   27  H   0.66283
+   28  H   0.66265
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:            10.03 SECONDS
+
+ == MOPAC DONE ==
